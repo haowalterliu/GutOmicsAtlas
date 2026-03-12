@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest . -- --template react)",
+      "Bash(npm create vite@latest temp-init -- --template react)",
+      "Bash(npm install react-router-dom)",
+      "Bash(npm install -D tailwindcss @tailwindcss/vite)",
+      "Bash(npm install)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

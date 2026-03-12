@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: 'Montserrat', sans-serif;
+  --color-primary: #de3341;
+  --color-primary-hover: #c42d39;
+  --color-text: #0f0f0f;
+  --color-secondary: #6B7280;
+  --color-muted: #9CA3AF;
+  --color-border: #E5E7EB;
+  --color-hover: #F3F4F6;
+  --color-surface: #F5F5F5;
+  --color-alt-row: #F9FAFB;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #0f0f0f;
+  line-height: 1.6;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-shadow: none !important;
+}
+
+button, a, input, select, textarea {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+:focus-visible {
+  outline: none;
+}
